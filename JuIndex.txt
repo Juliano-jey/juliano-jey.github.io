@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JuIndex</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: repeating-linear-gradient(
+        45deg,
+        #4a306d,
+        #4a306d 10px,
+        #6a4d8c 10px,
+        #6a4d8c 20px
+      );
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: #3a245b;
+      border-radius: 15px;
+      padding: 20px;
+      width: 90%;
+      max-width: 800px;
+    }
+    h3 {
+      margin: 10px 0;
+    }
+    h4 {
+      margin: 8px 0;
+      font-weight: normal;
+    }
+    details {
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #4d2f6c;
+      border-radius: 10px;
+    }
+    a {
+      color: #9bd4ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    small {
+      font-size: 12px;
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3><a href="https://goblin.tools/judge"> 🔗 Ferramenta IA para NDs 🐸 (Eng)</a></h3>
+    <h4>Ferramenta de interpretação de tom, organização de tarefas e de reformular palavras (tom)</h4>
+    <details>
+      <summary>Mais sobre </summary>
+      <p>Goblin tools é uma ferramenta feita especificamente para neurodivergentes, que utiliza IA para funções como interpretar o tom e significado de uma mensagem, reescrever uma mensagem com um tom diferente, e ajudar a organizar tarefas e lista passo a passo para realizá-las. O site é em inglês nativamente, mas caso não saiba inglês, para tarefas não muito complexas ele funciona em português. Você também pode usar tradutor.</p>
+    </details>
+
+    <h3> ℹ️ Tampões Loop 🎧 (Loop Earplugs)</h3>
+    <h4>Tampões de ouvido de alta qualidade, incluindo modelos com canal acústico que permitem escutar bem, mas em um volume mais baixo, invés de "abafar" os sons.</h4>
+    <details>
+      <summary>Sobre os diferentes modelos</summary>
+      <p>Loop Earplugs tem vários modelos de tampões:</p>
+      <details>
+        <summary>Loop Quiet e Loop Dream</summary>
+        <p>Modelos de silicone, sem canal acústico, feitos para bloquear o máximo de som/volume possível. São moles, ideais para dormir. </p>
+        <small> >Quiet Plus vem com borrachinhas (flange) duplas.</small>
+      </details>
+      <details>
+        <summary>Loop Experience e Loop Engage</summary>
+        <p>Modelos de plástico/resina com borrachinha de silicone, possuem canal acústico, permitindo que som entre, mas não com o mesmo volume.<p>
+        </p>Experience bloqueia mais som só que tem a maior fidelidade sonora, ideal para shows, já que você não vai ficar com zumbido ou surdez por conta da música alta, mas ainda vai poder escutar com bastante detalhes.<p>
+        </p>Engage bloqueia menos som, é ideal para conversar e dia-a-dia, e tem menos efeito de oclusão (quando você tampa os ouvidos e ouve a própria voz, respiração, mastigação, etc no seu ouvido) do que tampões comuns. </p>
+         <small> >Versão Plus desses modelos vem com 3 pares de borrachinhas de espuma junto das de silicone, e 2 pares dos acessórios "Loop Mute", que quando inseridos nos Loops fazem eles bloquear um pouco mais de som. </small>
+      </details>
+      <details>
+        <summary>Loop Switch</summary>
+        <p>Um Loop que tem 3 modos, você pode girar uma parte dele e no interior ele vai trocar o filtro acústico. É como se tivesse os modelos Quiet, Experience e Engage em um só. Mas é importante saber que os 3 modos do Switch NÃO SÃO iguais os 3 tampões separados, parecidos mas não são totalmente idênticos.</p>
+      </details>
+    </details>
+    <details>
+      <summary> 🔗 Comprar, descontos e taxas</summary>
+      <p><a href="https://Loopearplugs.com">Site Loop</a></p>
+      <p><a href="http://rwrd.io/b3pr0tm?c"> Site Loop + código 15% de desconto em qualquer compra *¹ </a></p>
+      <details> 
+      <summary>Taxas</summary>
+      <p>Qualquer compra no site que ultrapasse USD 50, quase inevitavelmente será taxada, espere taxa de R$150 até 1.5× o valor do pacote. Abaixo de USD 50, tem chance de taxar e não taxar, se taxar, não será muito alto, mas espere até R$100. (ATENÇÃO: isso são aproximações/expectativas, as taxas quase nunca dão o mesmo valor exato, pode ser mais alto ou mais baixo que isso, mas baseado nessas informações que tirei de quanto pacotes da Loop Earplugs meus e de amigos foram taxados, você pode ter uma noção e se preparar.)</p>
+      </details>
+      <small>*¹ = Valorizo a transparência, então:
+Os 15% de desconto são oferecidos pelo meu código de referência (referral code). Eu ganho 150 pontos para cada uso dele, ao juntar 3 mil pontos (20 usos), ganho um tampão. Não tive nenhum uso até agora, não ganho mais nada com os usos, e não sou patrocinado ou pago. Espero que o desconto lhes ajude e agradeço imensamente se usarem o meu link. :) </small>
+    </details>
+
+    <h3><a href="https://rtings.com"> 🔗 Site de Reviews de produtos tech 💯📝</a></h3>
+    <details>
+      <summary>Sobre </summary>
+      <p>Site de reviews técnicas e específicas incluindo de fones de ouvido com cancelamento de ruído. Muito bom para quem está cansado de ver Reviews de neurotipicos que não respondem nossas dúvidas, e para aqueles que gostam de dados e números.</p>
+    </details>
+  </div>
+</body>
+</html>
