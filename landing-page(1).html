@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e6d0b3;
+            background-image: 
+                linear-gradient(
+                    45deg,
+                    #d4b28c 25%,
+                    transparent 25%,
+                    transparent 75%,
+                    #d4b28c 75%
+                ),
+                linear-gradient(
+                    45deg,
+                    #d4b28c 25%,
+                    transparent 25%,
+                    transparent 75%,
+                    #d4b28c 75%
+                );
+            background-size: 60px 60px;
+            background-position: 0 0, 30px 30px;
+        }
+
+        .container {
+            padding: 2rem;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 2rem;
+            margin: 1rem 0;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(145deg, #2563eb, #1d4ed8);
+            border-radius: 15px;
+            box-shadow: 
+                4px 4px 8px rgba(0, 0, 0, 0.25),
+                -2px -2px 6px rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 
+                6px 6px 12px rgba(0, 0, 0, 0.3),
+                -3px -3px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        .button.index {
+            background: linear-gradient(145deg, #2563eb, #1d4ed8);
+        }
+
+        .button.hub {
+            background: linear-gradient(145deg, #7c3aed, #6d28d9);
+        }
+
+        .button::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                rgba(255, 255, 255, 0.2),
+                rgba(255, 255, 255, 0.1)
+            );
+            transform: rotate(45deg);
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+
+        .button:hover::after {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/juindex" class="button index">JuIndex</a>
+        <a href="/juhub" class="button hub">JuHub</a>
+    </div>
+</body>
+</html>
