@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Kiosk Stock Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+        <h1>Stock Manager</h1>
+        <nav>
+            <button onclick="app.renderOverview()">Overview</button>
+            <button onclick="app.startGuidedAudit()">Guided Audit</button>
+            <button onclick="app.renderManageItems()">Manage Items</button>
+        </nav>
+    </header>
+
+    <main id="app-content">
+        </main>
+
+    <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Offline mode ready'))
+                    .catch(err => console.log('Service Worker error', err));
+            });
+        }
+    </script>
+</body>
+</html>
